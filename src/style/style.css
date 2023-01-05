@@ -1,0 +1,28 @@
+.d-flex{
+    display: flex;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.searchBox{
+    padding: 3%;
+}
+
+.cart-button{
+    float: right;
+    margin:10px 0px;
+}
+
+.cart{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.productManagementHead{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}

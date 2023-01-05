@@ -1,19 +1,76 @@
 {
-  "posts": [
+  "products": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "title": "Mens Nike T-shirt",
+      "brand": "Nike",
+      "category": "Male Tshirt",
+      "price": "1500",
+      "imgPath": "/img/NikeMenTshirt.jpg",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "title": "Nike T-shirt",
+      "brand": "Nike",
+      "category": "Female Tshirt",
+      "price": "1200",
+      "imgPath": "/img/nikeWomenTshirt.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Puma T-shirt",
+      "brand": "Puma",
+      "category": "Male Tshirt",
+      "price": "1000",
+      "imgPath": "/img/pumaMenTshirt.jpeg"
+    },
+    {
+      "id": 4,
+      "title": "Puma T-shirt",
+      "brand": "Puma",
+      "category": "Female Tshirt",
+      "price": "800",
+      "imgPath": "/img/pumaWomenTshirt.jpeg"
+    },
+    {
+      "id": 5,
+      "title": "Silk Cadbury",
+      "brand": "Cadbury",
+      "category": "Food",
+      "price": "150",
+      "imgPath": "/img/SilkCadbury.jpeg"
+    },
+    {
+      "id": 6,
+      "title": "Iphone 14 pro max",
+      "brand": "Apple",
+      "category": "Mobile",
+      "price": "150000",
+      "imgPath": "/img/Iphone14proMax.jpeg"
+    },
+    {
+      "id": 7,
+      "title": "One plus 11",
+      "brand": "One Plus",
+      "category": "Mobile",
+      "price": "75000",
+      "imgPath": "/img/onePlus11.jpeg"
     }
   ],
-  "comments": [
+  "cart": [],
+  "checkout": [],
+  "users": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "Pratik",
+      "email": "pratik@gmail.com",
+      "password": "1234"
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "1234",
+      "name": "test",
+      "id": 2
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
